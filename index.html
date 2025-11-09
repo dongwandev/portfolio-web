@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- JavaScript -->
+    <script src="src/main.js" defer></script>
+
+    <!-- ---------------------------- Font Awesome ----------------------------- -->
+    <script
+      src="https://kit.fontawesome.com/45976df4cd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>짐코딩 포트폴리오</title>
+  </head>
+  <body>
+    <!-- ------------------------------- HEADER -------------------------------- -->
+    <header class="header">
+      <nav class="nav container">
+        <div>
+          <a href="#" class="nav__logo">짐코딩</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- -------------------------------- HOME --------------------------------- -->
+      <section class="home container" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            안녕하세요! <br />
+            <strong class="home__title-color">코딩 교육 크리에이터</strong
+            ><br />
+            <strong class="home__title-color">짐코딩</strong>입니다!
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+
+          <div class="home__social">
+            <a
+              href="https://www.youtube.com/@gymcoding"
+              target="_blank"
+              title="짐코딩 유튜브 링크"
+            >
+              <i class="fa-brands fa-youtube home__social-icon"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/gymcoding/"
+              target="_blank"
+              title="짐코딩 인스타그램 링크"
+            >
+              <i class="fa-brands fa-instagram home__social-icon"></i>
+            </a>
+            <a
+              href="https://github.com/gymcoding"
+              target="_blank"
+              title="짐코딩 깃허브 링크"
+            >
+              <i class="fa-brands fa-github home__social-icon"></i>
+            </a>
+          </div>
+        </div>
+        <img
+          class="home__img"
+          src="images/profile.gif"
+          alt="짐코딩 프로필 이미지"
+        />
+      </section>
+
+      <!-- -------------------------------- ABOUT -------------------------------- -->
+      <section class="about section bg-grey-1" id="about">
+        <h2 class="section__title">About</h2>
+
+        <div class="about__container container">
+          <div class="about__img">
+            <img src="images/about.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am GYM CODING</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ullam
+              quaerat nihil? Consequuntur, nostrum. Quos magnam fuga ut aut,
+              maiores, vitae dolor cum quae illo fugit qui ducimus dolore
+              beatae.<br /><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ea
+              incidunt! Dolores est quae laudantium sapiente et laboriosam
+              molestias, odio repellendus in explicabo ratione aperiam quis
+              doloremque enim cumque ullam.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------- SKILLS -------------------------------- -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+
+        <div class="skills__container container">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              optio id vero amet, alias architecto consectetur error eum eaque
+              sit.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+              <progress
+                class="skills__progress"
+                id="html5"
+                max="100"
+                value="95"
+              >
+                95%
+              </progress>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-css3-alt skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+              <progress class="skills__progress" id="css3" max="100" value="85">
+                85%
+              </progress>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-js skills__icon"></i>
+                <span class="skills__name">JavaScript</span>
+              </div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+              <progress
+                class="skills__progress"
+                id="javascript"
+                max="100"
+                value="65"
+              >
+                65%
+              </progress>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-solid fa-server skills__icon"></i>
+                <span class="skills__name">Back-end</span>
+              </div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+              <progress
+                class="skills__progress"
+                id="back-end"
+                max="100"
+                value="85"
+              >
+                85%
+              </progress>
+            </div>
+          </div>
+          <div>
+            <img
+              class="skills__img"
+              src="images/skills/skills.jpg"
+              alt="Skills"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------------------------- WORK --------------------------------- -->
+      <section class="work section" id="work">
+        <h2 class="section__title">Work</h2>
+
+        <div class="work__container container">
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/frontend-fly"
+            target="_blank"
+          >
+            <img
+              class="work__img"
+              src="images/work/front-end-fly.png"
+              alt="프론트엔드 날개달기 강의"
+            />
+          </a>
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/vue-basic"
+            target="_blank"
+          >
+            <img
+              class="work__img"
+              src="images/work/vue-3-basic.png"
+              alt="Vue3 완벽 마스터 기본편 강의"
+            />
+          </a>
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/vue-practice"
+            target="_blank"
+          >
+            <img
+              class="work__img"
+              src="images/work/vue-3-practice.png"
+              alt="Vue3 완벽 마스터 실전편 강의"
+            />
+          </a>
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/quasar"
+            target="_blank"
+          >
+            <img
+              class="work__img"
+              src="images/work/quasar.png"
+              alt="Quasar 강의"
+            />
+          </a>
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/vue-firebase"
+            target="_blank"
+          >
+            <img
+              class="work__img"
+              src="images/work/vue-3-firebase.png"
+              alt="Vue3 & Firebase 강의"
+            />
+          </a>
+          <a
+            class="work__link"
+            href="https://www.gymcoding.co/courses/nuxt"
+            target="_blank"
+          >
+            <img
+              class="work__img"
+              src="images/work/nuxt-3.png"
+              alt="Nuxt3 강의"
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- ------------------------------- CONTACT ------------------------------- -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+
+        <div class="contact__container container">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="이름" class="contact__input" />
+            <input type="mail" placeholder="이메일" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Submit"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ------------------------------- FOOTER -------------------------------- -->
+    <footer class="footer">
+      <p class="footer__title">짐코딩</p>
+      <div class="footer__social">
+        <a
+          href="https://www.youtube.com/@gymcoding"
+          target="_blank"
+          title="짐코딩 유튜브 링크"
+          class="footer__link"
+        >
+          <i class="fa-brands fa-youtube footer__icon"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/gymcoding/"
+          target="_blank"
+          title="짐코딩 인스타그램 링크"
+          class="footer__link"
+        >
+          <i class="fa-brands fa-instagram footer__icon"></i>
+        </a>
+        <a
+          href="https://github.com/gymcoding"
+          target="_blank"
+          title="짐코딩 깃허브 링크"
+          class="footer__link"
+        >
+          <i class="fa-brands fa-github footer__icon"></i>
+        </a>
+      </div>
+      <p class="footer__copy">
+        Copyright &copy; 2024 짐코딩 All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
