@@ -15,12 +15,11 @@
       src="https://kit.fontawesome.com/3080ab28fa.js"
       crossorigin="anonymous"
     ></script>
-    <title>포트폴리오 - Home</title>
+    <title>포트폴리오 - About</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav container">
-        <!-- 이미지(로고) -->
         <div class="nav__logo">
           <img
             class="nav__img"
@@ -30,7 +29,6 @@
           <a href="index.html" class="nav__brand">Toffeenut</a>
         </div>
 
-        <!-- 메뉴 -->
         <div class="nav__menu" id="nav__menu">
           <ul class="nav__list">
             <li class="nav__item">
@@ -56,81 +54,69 @@
       </nav>
     </header>
     <main>
-      <!-- Home -->
-      <section class="home container section" id="home">
-        <!-- Home Data -->
-        <div class="home__data">
-          <h2 class="home__title">
-            안녕하세요! <br />
-            <strong class="home__title-color">컴퓨터공학과</strong>
-            <br />
-            <strong class="home__title-color">홍동완</strong>입니다!
-          </h2>
+      <!-- About -->
+      <section class="about section bg-grey-1" id="about">
+        <h2 class="section__title">About</h2>
 
-          <a href="contact.html" class="button">Contact</a>
-
-          <div class="home__social">
-            <a
-              href="https://www.youtube.com/@Toffenutlatte"
-              target="_blank"
-              title="Toffeenut 유튜브 링크"
-            >
-              <i class="fa-brands fa-youtube home__social-icon"></i>
-            </a>
-
-            <a
-              href="https://www.instagram.com/dwh_01_09/"
-              target="_blank"
-              title="짐코딩 인스타그램 링크"
-            >
-              <i class="fa-brands fa-instagram home__social-icon"></i>
-            </a>
-
-            <a
-              href="https://github.com/dongwandev"
-              target="_blank"
-              title="Toffeenut 깃헙 링크"
-            >
-              <i class="fa-brands fa-github home__social-icon"></i>
-            </a>
+        <div class="about__container container">
+          <!-- 이미지 -->
+          <img
+            class="about__img"
+            src="./image/about/about-hdw.png"
+            alt="소개 이미지"
+          />
+          <!-- 문자열 -->
+          <div class="about__data">
+            <h3 class="about__subtitle">
+              끊임없이 배우고, 성장으로 증명하는 개발자 지망생입니다.
+            </h3>
+            <p class="about__text">
+              저는 컴퓨터공학을 전공하며, 이론뿐 아니라 실제 개발 경험을 통해
+              실력을 키워가고 있습니다. 처음 프로그래밍을 배울 때는 코드 한 줄을
+              이해하는 데도 많은 시간이 걸렸지만, 꾸준히 공부하며 작은 성취를
+              쌓아왔습니다. 이러한 과정에서 문제를 해결하는 사고력과 논리적
+              접근의 중요성을 깨달았습니다.
+              <br /><br />
+              현재는 웹과 인공지능 분야에 특히 관심을 두고 있으며, 학부 과제와
+              개인 프로젝트를 통해 기술 역량을 확장하고 있습니다. 팀
+              프로젝트에서는 협업을 통해 효율적인 코드 구조와 개발 프로세스를
+              배우고, 개인 프로젝트에서는 스스로 설계하고 구현하며 실무 감각을
+              익히고 있습니다.
+              <br /><br />
+              저는 단순히 ‘개발을 잘하는 사람’이 아니라, 문제를 정의하고 해결할
+              수 있는 사람, 그리고 지속적으로 성장하는 사람이 되고자 합니다.
+              앞으로도 새로운 기술을 배우는 데 주저하지 않고, 개발자로서의
+              전문성과 책임감을 함께 갖춘 인재로 성장해 나가겠습니다.
+            </p>
           </div>
         </div>
-
-        <!-- Home Image -->
-        <img
-          class="home__img"
-          src="./image/home_image/profile-hdw.png"
-          alt="프로필 이미지"
-        />
       </section>
+
+      <button class="floating-button" id="floatingButton">
+        <i class="fa-solid fa-arrow-up floating-button-icon"></i>
+      </button>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
       <p class="footer__title">Toffeenut</p>
       <div class="footer__social">
         <a
           href="https://www.youtube.com/@Toffenutlatte"
           target="_blank"
-          title="Toffeenut 유튜브 링크"
           class="footer__link"
         >
           <i class="fa-brands fa-youtube footer__icon"></i>
         </a>
-
         <a
           href="https://www.instagram.com/dwh_01_09/"
           target="_blank"
-          title="Toffeenut 인스타그램 링크"
           class="footer__link"
         >
           <i class="fa-brands fa-instagram footer__icon"></i>
         </a>
-
         <a
           href="https://github.com/dongwandev"
           target="_blank"
-          title="Toffeenut 깃헙 링크"
           class="footer__link"
         >
           <i class="fa-brands fa-github footer__icon"></i>

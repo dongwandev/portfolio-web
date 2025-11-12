@@ -15,12 +15,11 @@
       src="https://kit.fontawesome.com/3080ab28fa.js"
       crossorigin="anonymous"
     ></script>
-    <title>포트폴리오 - Home</title>
+    <title>포트폴리오 - Contact</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav container">
-        <!-- 이미지(로고) -->
         <div class="nav__logo">
           <img
             class="nav__img"
@@ -30,7 +29,6 @@
           <a href="index.html" class="nav__brand">Toffeenut</a>
         </div>
 
-        <!-- 메뉴 -->
         <div class="nav__menu" id="nav__menu">
           <ul class="nav__list">
             <li class="nav__item">
@@ -56,81 +54,65 @@
       </nav>
     </header>
     <main>
-      <!-- Home -->
-      <section class="home container section" id="home">
-        <!-- Home Data -->
-        <div class="home__data">
-          <h2 class="home__title">
-            안녕하세요! <br />
-            <strong class="home__title-color">컴퓨터공학과</strong>
-            <br />
-            <strong class="home__title-color">홍동완</strong>입니다!
-          </h2>
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
 
-          <a href="contact.html" class="button">Contact</a>
-
-          <div class="home__social">
-            <a
-              href="https://www.youtube.com/@Toffenutlatte"
-              target="_blank"
-              title="Toffeenut 유튜브 링크"
-            >
-              <i class="fa-brands fa-youtube home__social-icon"></i>
-            </a>
-
-            <a
-              href="https://www.instagram.com/dwh_01_09/"
-              target="_blank"
-              title="짐코딩 인스타그램 링크"
-            >
-              <i class="fa-brands fa-instagram home__social-icon"></i>
-            </a>
-
-            <a
-              href="https://github.com/dongwandev"
-              target="_blank"
-              title="Toffeenut 깃헙 링크"
-            >
-              <i class="fa-brands fa-github home__social-icon"></i>
-            </a>
-          </div>
+        <div class="contact__container container">
+          <form id="contactForm" class="contact__form">
+            <input
+              class="contact__input"
+              type="text"
+              name="name"
+              placeholder="이름"
+              required
+            />
+            <input
+              class="contact__input"
+              type="text"
+              name="subject"
+              placeholder="제목"
+              required
+            />
+            <textarea
+              class="contact__input"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="내용"
+              required
+            ></textarea>
+            <button class="contact__button button">보내기</button>
+          </form>
         </div>
-
-        <!-- Home Image -->
-        <img
-          class="home__img"
-          src="./image/home_image/profile-hdw.png"
-          alt="프로필 이미지"
-        />
       </section>
+
+      <button class="floating-button" id="floatingButton">
+        <i class="fa-solid fa-arrow-up floating-button-icon"></i>
+      </button>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
       <p class="footer__title">Toffeenut</p>
       <div class="footer__social">
         <a
           href="https://www.youtube.com/@Toffenutlatte"
           target="_blank"
-          title="Toffeenut 유튜브 링크"
           class="footer__link"
         >
           <i class="fa-brands fa-youtube footer__icon"></i>
         </a>
-
         <a
           href="https://www.instagram.com/dwh_01_09/"
           target="_blank"
-          title="Toffeenut 인스타그램 링크"
           class="footer__link"
         >
           <i class="fa-brands fa-instagram footer__icon"></i>
         </a>
-
         <a
           href="https://github.com/dongwandev"
           target="_blank"
-          title="Toffeenut 깃헙 링크"
           class="footer__link"
         >
           <i class="fa-brands fa-github footer__icon"></i>
